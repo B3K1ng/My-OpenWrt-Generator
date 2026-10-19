@@ -46,7 +46,7 @@ jobs:
           cd openwrt-src
           mkdir -p package/kernel/mac80211/patches/ath11k
           wget -O package/kernel/mac80211/patches/ath11k/950-ath11k-shrink-rx-buffer-rings.patch \
-            https://githubusercontent.com
+            https://raw.githubusercontent.com/enspect/ath11k-ipq807x-rx-buffer-oom-fix/refs/heads/master/950-ath11k-shrink-rx-buffer-rings.patch
 
       - name: Configure Custom App Manifest
         run: |
