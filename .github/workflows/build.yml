@@ -33,7 +33,7 @@ jobs:
 
       - name: Clone Specific OpenWrt Stable Release Tag
         run: |
-          git clone --depth 1 --branch v25.12.6 https://github.com openwrt-src
+          git clone --depth 1 --branch v25.12.6 https://github.com/openwrt/openwrt.git openwrt-src
 
       - name: Update and Install Feeds
         run: |
